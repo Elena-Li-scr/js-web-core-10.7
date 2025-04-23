@@ -7,6 +7,25 @@
     <title>GITHUB</title>
   </head>
   <body>
+    <div class="container">
+      <div class="main-search">
+        <div class="wrapper">
+          <input type="text" class="search" />
+          <div class="autocompl"></div>
+        </div>
+        <div class="cards"></div>
+      </div>
+      <template class="hide-card">
+        <div class="card">
+          <div class="card-text">
+            <span class="card-name">Name: </span>
+            <span class="card-owner">Owner: </span>
+            <span class="card-stars">Stars: </span>
+          </div>
+          <button class="card-button" type="button"></button>
+        </div>
+      </template>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
